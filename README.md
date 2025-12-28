@@ -21,5 +21,5 @@ A user query is embedded into the same vector space.
 step6:Similarity Search 
 FAISS finds top matches based on cosine similarity.
 
-step7:Results Display T
-he most relevant document snippets are shown.
+step7:Results Display 
+The most relevant document snippets are shown.
