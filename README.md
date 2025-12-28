@@ -3,16 +3,23 @@ Semantic search allows computers to understand the meaning behind user queries r
 
 working:
 
-step1:Document Ingestion: PDF, DOCX and TXT files are read and converted into text.
+step1:Document Ingestion 
+PDF, DOCX and TXT files are read and converted into text.
 
-step2:Chunking: Each document is split into smaller, meaningful parts.
+step2:Chunking  
+Each document is split into smaller, meaningful parts.
 
-step3:Embedding Generation: Text chunks are converted into dense vector representations.
+step3:Embedding Generation
+Text chunks are converted into dense vector representations.
 
-step4:FAISS Indexing: Embeddings are stored in FAISS for efficient similarity search.
+step4:FAISS Indexing 
+Embeddings are stored in FAISS for efficient similarity search.
 
-step5:Query Encoding: A user query is embedded into the same vector space.
+step5:Query Encoding 
+A user query is embedded into the same vector space.
 
-step5:Similarity Search: FAISS finds top matches based on cosine similarity.
+step6:Similarity Search 
+FAISS finds top matches based on cosine similarity.
 
-step6:Results Display: The most relevant document snippets are shown.
+step7:Results Display T
+he most relevant document snippets are shown.
