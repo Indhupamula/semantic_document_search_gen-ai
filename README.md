@@ -24,3 +24,12 @@ FAISS finds top matches based on cosine similarity.
 
 Step 7: Results Display  
 The most relevant document snippets are shown.
+
+## Tech Stack
+
+- Programming Language: Python  
+- Embedding Model: Sentence Transformers
+- Vector Database: FAISS  
+- Libraries: NumPy, PyMuPDF, python-docx, PyPDF2  
+
+
